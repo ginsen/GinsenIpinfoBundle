@@ -1,0 +1,34 @@
+{
+  "name": "ginsen/ipinfo-bundle",
+  "type": "symfony-bundle",
+  "description": "Ipinfo library wrapper into symfony bundle",
+  "homepage": "https://github.com/ginsen/GinsenIpinfoBundle",
+  "license": "MIT",
+  "keywords": [
+    "ipinfo", "ip", "geolocation", "symfony", "bundle"
+  ],
+  "authors": [{
+    "name": "J. Ginés Hernández Galindo",
+    "email": "jgines@gmail.com",
+    "homepage": "https://github.com/ginsen",
+    "role": "Developer"
+  }],
+  "autoload": {
+    "psr-4": {
+      "Ginsen\\IpInfoBundle\\": ""
+    }
+  },
+  "require": {
+    "php": "^5.3.9|^7.0",
+    "ginsen/ipinfo": "^0.5.2",
+    "symfony/framework-bundle": "~2.3|~3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.3",
+    "johnkary/phpunit-speedtrap": "^1.0",
+    "mybuilder/phpunit-accelerator": "^1.1"
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}

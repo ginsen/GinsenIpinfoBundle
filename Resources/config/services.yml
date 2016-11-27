@@ -1,0 +1,5 @@
+services:
+    ginsen.ip_info.manager:
+        class: Ginsen\IpInfoBundle\Service\IpinfoManager
+        arguments:
+            - '%ginsen_ipinfo.token%'
